@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/AdamAsmaca/">
+    <Project Path="AdamAsmaca/AdamAsmaca/AdamAsmaca.csproj" />
+  </Folder>
+  <Folder Name="/GelismisATM/">
+    <Project Path="GelismisATM/GelismisATM/GelismisATM.csproj" />
+  </Folder>
+  <Folder Name="/GucluSifreUreticiVeAnalizoru/">
+    <Project Path="GucluSifreUreticiVeAnalizoru/GucluSifreUreticiVeAnalizoru/GucluSifreUreticiVeAnalizoru.csproj" />
+  </Folder>
+  <Folder Name="/GunlukGelirHarcamaButcesiTakipcisi/">
+    <Project Path="GunlukGelirHarcamaButcesiTakipcisi/GunlukGelirHarcamaButcesiTakipcisi/GunlukGelirHarcamaButcesiTakipcisi.csproj" />
+  </Folder>
+  <Folder Name="/GuvenliBankaHesabiYonetimi/">
+    <Project Path="GuvenliBankaHesabiYonetimi/GuvenliBankaHesabiYonetimi/GuvenliBankaHesabiYonetimi.csproj" />
+  </Folder>
+  <Folder Name="/HesapMakinesi/">
+    <Project Path="HesapMakinesi/Yeni1_1/Yeni1_1.csproj" />
+  </Folder>
+  <Folder Name="/Ogrenci_not_ve_istatislik/">
+    <Project Path="Ogrenci_not_ve_istatislik/Ogrenci_not_ve_istatislik/Ogrenci_not_ve_istatislik.csproj" />
+  </Folder>
+  <Folder Name="/RPG_KarakterArenaSimulasyonu/">
+    <Project Path="RPG_KarakterArenaSimulasyonu/RPG_KarakterArenaSimulasyonu/RPG_KarakterArenaSimulasyonu.csproj" />
+  </Folder>
+</Solution>

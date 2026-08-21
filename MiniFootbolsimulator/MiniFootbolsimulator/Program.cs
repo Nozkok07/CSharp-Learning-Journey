@@ -9,10 +9,11 @@ class Program
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.BackgroundColor = ConsoleColor.DarkBlue;
         Console.Clear();
+        Takim evSahibi = new Takim();
+        Takim deplasman = new Takim();
         while (true)
         {
-            Takim evSahibi = new Takim();
-            Takim deplasman = new Takim();
+            
             Console.Clear();
             Console.WriteLine("\t\t\tFutbol oyununa hosgeldiniz");
             Console.WriteLine("\t\t\tDevam etmek icin bir tusa basiniz");
@@ -137,7 +138,8 @@ class Program
             }
             Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("\t\t\tMac Basliyor : ");
+            Console.WriteLine("\t\t\tMac Basliyor : \n");
+            Thread.Sleep(1000);
             evSahibi.MacYap(deplasman);
             evSahibi.istatistikleriGoster();
             deplasman.istatistikleriGoster();

@@ -21,11 +21,14 @@ public class Takim
 
     public void MacYap(Takim rakip)
     {
+        
         Random rnd = new Random();
+        int evSahibiSans=rnd.Next(0, 40);
+        int rakipSans=rnd.Next(0, 40);
         int evGol, rakipGol;
         rnd.Next(0,6);
-        evGol=HucumGucu+rnd.Next(0,6);
-        rakipGol=HucumGucu+rnd.Next(0,6);
+        evGol=this.HucumGucu+rnd.Next(0,6);
+        rakipGol=rakip.HucumGucu+rnd.Next(0,6);
         rakip.HucumGucu=evGol;
         rakip.HucumGucu=rakipGol;
         Console.WriteLine($"{this.TakimAdi}{evGol} - {rakipGol}{rakip.TakimAdi}");

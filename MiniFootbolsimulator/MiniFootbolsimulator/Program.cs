@@ -136,14 +136,13 @@ class Program
                     deplasman.SavunmaGucu = 70;
                     break;
             }
-            Console.ReadLine();
             Console.Clear();
             Console.WriteLine("\t\t\tMac Basliyor : \n");
             Thread.Sleep(1000);
             evSahibi.MacYap(deplasman);
-            evSahibi.istatistikleriGoster();
-            deplasman.istatistikleriGoster();
-            Console.WriteLine("Menuye donmek icin bir tusa basiniz");
+            evSahibi.IstatistikleriGoster();
+            deplasman.IstatistikleriGoster();
+            Console.WriteLine("\t\t\tMenuye donmek icin bir tusa basiniz");
             Console.ReadKey();
         }
     }

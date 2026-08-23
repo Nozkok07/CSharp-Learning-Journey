@@ -8,6 +8,7 @@ C# ve Nesne Yönelimli Programlama (OOP) temellerini adım adım uygulayarak ö�
 
 | Proje Adı | Açıklama / Kapsanan Konular |
 | :--- | :--- |
+| **PapaganBakimAsistani** | OOP mimarisi (Kapsülleme, Yapıcı Metotlar), rutin/sağlık takibi ve veri doğrulama mantığı. |
 | **RPG_KarakterArenaSimulasyonu** | OOP prensipleri (Sınıflar, Kapsülleme), nesneler arası etkileşim ve sıra tabanlı dövüş simülasyonu. |
 | **MiniFootbolsimulator** | Oyun motoru algoritması, Random (şans) faktörü, durum yönetimi ve temel OOP prensipleri. |
 | **GuvenliBankaHesabiYonetimi** | Kapsülleme (Encapsulation), bakiye kontrolü ve temel güvenlik/doğrulama mantığı. |
